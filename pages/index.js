@@ -19,7 +19,7 @@ var config = {
     storageBucket: "portfolio-89edf.appspot.com",
     messagingSenderId: "729287081290"
   };
-firebase.initializeApp(config);
+// firebase.initializeApp(config);
 
 
 
