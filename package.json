@@ -7,8 +7,6 @@
   "author": "Natasha Kelly",
   "license": "MIT",
   "dependencies": {
-    "firebase": "^4.1.1",
-    "firebase-tools": "^3.9.1",
     "material-ui": "^0.18.1",
     "next": "*",
     "react": "^15.5.4",
@@ -20,6 +18,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   }
 }

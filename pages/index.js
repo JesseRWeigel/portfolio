@@ -9,17 +9,6 @@ import SocialHeaderIcons from '../components/Social';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 import Document, { Head, Main, NextScript } from 'next/document';
 import flush from 'styled-jsx/server';
-import * as firebase from 'firebase';
-
-var config = {
-    apiKey: "AIzaSyAARIrGO5lYPQL1g6HzJNIhzQ3CXn5YD1Y",
-    authDomain: "portfolio-89edf.firebaseapp.com",
-    databaseURL: "https://portfolio-89edf.firebaseio.com",
-    projectId: "portfolio-89edf",
-    storageBucket: "portfolio-89edf.appspot.com",
-    messagingSenderId: "729287081290"
-  };
-// firebase.initializeApp(config);
 
 
 
